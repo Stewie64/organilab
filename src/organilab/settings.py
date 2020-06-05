@@ -53,8 +53,6 @@ INSTALLED_APPS = [
     "djreservation",
     "celery",
     'ajax_select',
-    'crispy_forms',
-    'cruds_adminlte',
     'location_field.apps.DefaultConfig',
     'mptt',
     'constance',
