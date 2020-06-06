@@ -2,6 +2,10 @@
 <div class="col-md-3 left_col">
     <div class="left_col scroll-view">
         <div class="main_menu_side hidden-print main_menu"  id="sidebar-menu" role="navigation">
+            <div class="navbar nav_title">
+                <a class="site_title" href="{% if laboratory %}{% url 'laboratory:labindex' laboratory %}{% else %}{% url 'index' %}{% endif %}"><strong
+                  id="brand_id">ORGANILAB</strong></a>
+            </div>
             <div class="menu_section">
                 <ul class="nav side-menu">
                     <li class="sidebar-search">
